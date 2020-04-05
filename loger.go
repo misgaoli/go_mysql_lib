@@ -53,13 +53,10 @@ func (l *Loger) logInit(fileName string, level string) (logObj *logs.BeeLogger) 
 	return logObj
 }
 
-<<<<<<< HEAD
 func TestA(s string) string{
   return s
 }
-=======
 func Test(s string) string{
   return s
 
 }
->>>>>>> 6cfa7e4bb5f8f2b81c7767172fa7b15cdd3f5d4a
