@@ -52,3 +52,8 @@ func (l *Loger) logInit(fileName string, level string) (logObj *logs.BeeLogger) 
 	}
 	return logObj
 }
+
+func Test(s string) string{
+  return s
+
+}
